@@ -54,23 +54,14 @@ body, html {
     color:#FFF;
   }
   #cvtext{
+
     background-color: #FFF;
     display: table-cell;
     text-align: center;
-    padding-top: 2%;
-    padding-right: 5%;
-    vertical-align: middle;
-    text-shadow:         
-    -1px -1px 0px #000,
-    0px -1px 0px #000,
-    1px -1px 0px #000,
-   -1px  0px 0px #000,
-    1px  0px 0px #000,
-   -1px  1px 0px #000,
-    0px  1px 0px #000,
-    1px  1px 0px #000;
-
-    color:#FFF;
+    color:#000;
+    max-width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
   }
   .landing-img{
     display: table-cell;
@@ -78,12 +69,10 @@ body, html {
     vertical-align: middle;
     padding-left: 0%;
     padding-top: 3%;
+    background-size: cover;
 
   }
-  #personal-pic{
-    max-width: 72.8%;
-    max-height: 50%;
-  }
+
   .landing-text h1{
     font-size: 500%;
     font-weight: 700;
@@ -109,6 +98,17 @@ body, html {
   max-height: 100px;
   padding-top: 1%;
   padding-bottom: 1%;
+}
+#cvrow{
+  background-color: #FFF;
+  min-height: 550px;
+  border: 1px solid black;
+}
+#cvleft{
+  background: url(img/hassan.jpg) no-repeat , url(/personalCV/img/hassan.jpg) no-repeat;
+  background-position: left;
+  background-size: 480px;
+  min-height: 550px;
 }
   @media (max-width: 768px){
     .landing-text h1{
