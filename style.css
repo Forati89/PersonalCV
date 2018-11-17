@@ -29,7 +29,7 @@ body, html {
     color: #ffffff;
   }
   #home{
-    background: url(img/defualtBG.jpg) no-repeat center center fixed;
+    background: url(img/defualtBG.jpg) no-repeat center center fixed, url(/personalCV/img/defualtBG.jpg) no-repeat center center fixed;
     display: table;
     height: 93.5%;
     position: relative;
