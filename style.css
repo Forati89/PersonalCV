@@ -53,6 +53,37 @@ body, html {
 
     color:#FFF;
   }
+  #cvtext{
+    background-color: #FFF;
+    display: table-cell;
+    text-align: center;
+    padding-top: 2%;
+    padding-right: 5%;
+    vertical-align: middle;
+    text-shadow:         
+    -1px -1px 0px #000,
+    0px -1px 0px #000,
+    1px -1px 0px #000,
+   -1px  0px 0px #000,
+    1px  0px 0px #000,
+   -1px  1px 0px #000,
+    0px  1px 0px #000,
+    1px  1px 0px #000;
+
+    color:#FFF;
+  }
+  .landing-img{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 0%;
+    padding-top: 3%;
+
+  }
+  #personal-pic{
+    max-width: 72.8%;
+    max-height: 50%;
+  }
   .landing-text h1{
     font-size: 500%;
     font-weight: 700;
@@ -90,5 +121,11 @@ body, html {
     footer h1{
       padding-top: 1%;
       font-size: 220%;
+    }
+    #personal-pic{
+      max-width: 100%;
+    }
+    .landing-img{
+      padding-top: 30%;
     }
   }
