@@ -31,7 +31,7 @@ body, html {
   #home{
     background: url(img/defualtBG.jpg) no-repeat center center fixed, url(/personalCV/img/defualtBG.jpg) no-repeat center center fixed;
     display: table;
-    height: 93.5%;
+    height: 90%;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -110,6 +110,19 @@ body, html {
   background-size: 480px;
   min-height: 550px;
 }
+#cvright{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding-left: 10%;
+  position: center;
+  vertical-align: center;
+}
+#cvright h5{
+  font-size: 22px;
+
+}
+.arbete{
+}
   @media (max-width: 768px){
     .landing-text h1{
       font-size: 300%
@@ -127,5 +140,9 @@ body, html {
     }
     .landing-img{
       padding-top: 30%;
+    }
+    #cvright{
+
+  
     }
   }
