@@ -31,7 +31,7 @@ body, html {
   #home{
     background: url(img/defualtBG.jpg) no-repeat center center fixed, url(/personalCV/img/defualtBG.jpg) no-repeat center center fixed;
     display: table;
-    height: 90%;
+    height: 88%;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -61,12 +61,13 @@ body, html {
     color:#000;
     max-width: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
   }
   .landing-img{
     display: table-cell;
     text-align: left;
     vertical-align: middle;
+    max-width: 100%;
     padding-left: 0%;
     padding-top: 3%;
     background-size: cover;
@@ -103,11 +104,20 @@ body, html {
   background-color: #FFF;
   min-height: 550px;
   border: 1px solid black;
+  margin-top: 3%
+}
+#cvkunskap{
+/*   margin-top: 2%;
+  margin-bottom: 2%; */
+  background-color: rgb(218, 211, 211);
+  background-size: cover;
+  min-height: 400px;
+/*   background: url(img/programBG.jpg) no-repeat , url(/personalCV/img/programBG.jpg) no-repeat; */
 }
 #cvleft{
   background: url(img/hassan.jpg) no-repeat , url(/personalCV/img/hassan.jpg) no-repeat;
   background-position: left;
-  background-size: 480px;
+  background-size: 450px auto;
   min-height: 550px;
 }
 #cvright{
@@ -115,15 +125,19 @@ body, html {
   text-align: center;
   padding-left: 10%;
   position: center;
-  vertical-align: center;
 }
 #cvright h5{
-  font-size: 22px;
+  font-size: 20px;
 
 }
-.arbete{
+.fa-briefcase:before {
+  color: #000;
 }
-  @media (max-width: 768px){
+.fa-graduation-cap:before {
+  color: #000;
+}
+
+  @media (max-width: 1100px){
     .landing-text h1{
       font-size: 300%
     }
@@ -141,8 +155,28 @@ body, html {
     .landing-img{
       padding-top: 30%;
     }
-    #cvright{
-
-  
+    #cvright h5{
+      font-size: 16px;
+    
     }
+    #cvleft{
+      background-size: 442px auto;
+    }
+    #cvtext{
+      font-size: 14px;
+    }
+    #MyTitle{
+      font-size: 20px;
+      }
+    #cvrow{
+      margin-top: 0px;
+    }
+    #countdown{
+      font-size: 180%
+    }
+    #countdown-title{
+       font-size: 180%
+    }  
+
   }
+
